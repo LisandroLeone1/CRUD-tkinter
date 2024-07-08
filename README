@@ -1,0 +1,18 @@
+Este repositorio contiene un CRUD desarrollado con python y con la su interfaz gradica Tkinter. Es un proyecto simple 
+en el cual se crea una base de datos con la extencion Sqlite3. En esa base de datos se crea una tabla con el nombre, apellido,
+contraseña y domicilio de los usuarios. Ademas de un comentario opcional.
+La aplicacion es muy simple, dispone de cuadros de texto donde ingresar los datos, los botones para crear, actualizar,
+leer y borrar usuarios. Una barra de menu con las opciones de conectar a la base de datos, limpiar los campos, CRUD y una
+opcion de ayuda.
+
+CREAR: se pueden crear los usuarios que se guardaran automaticamente en la base de datos. Para crear usuarios
+se deberan completar todos los campos, si no aparecera un mensaje de error.
+
+LEER: se podran leer los datos lo los usuarios ingresando el ID del usuario. Si se trata de leer sin ingresar un ID o se ingresa un ID inexistente nos dara un mensaje de error.
+
+ACTUALIZAR: se podran actualizar los datos de los usuarios y se guardara automaticamente en la base de datos.
+Aparecera un mensaje de error cuando el ID ingresado sea inexsitente y cuando los datos a actualizar sean iguales a los ya cargados.
+
+BORRAR: se podran eliminar todos los datos del usuario de la base de datos. 
+
+LIMPIAR CAMPOS: se limpiaran automaticante todos los cuadros de texto, quedando en blanco.
